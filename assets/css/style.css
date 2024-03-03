@@ -1,0 +1,29 @@
+/* Formatear el documnto HTML */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Barra de navegación*/
+.container .navbar-brand{
+    color: #FFFFFF;
+    display: inline-flex;
+    vertical-align: middle;
+  }
+
+  .text {
+  padding-left: 10px;
+}
+
+/* Encabezado */
+#header {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.image {
+  margin-top: 100px;
+}
+.boton {
+  text-align: left;
+}
