@@ -27,10 +27,7 @@
   </head>
   <body>
     <!-- Barra de navegación -->
-    <nav
-      class="navbar bg-dark navbar-expand-lg fixed-top"
-      data-bs-theme="dark"
-    >
+    <nav class="navbar bg-dark navbar-expand-lg fixed-top" data-bs-theme="dark">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="assets/img/sh2.jpg" alt="Logo SuperHero" width="10%" />
@@ -42,45 +39,74 @@
     <!-- Encabezado -->
     <header>
       <div class="container text-center">
-        <div><img class="image" src="assets/img/sh1.jpg" alt="SuperHero" width="" /></div>
-        <br>
+        <div>
+          <img
+            class="image"
+            src="assets/img/sh1.jpg"
+            alt="SuperHero"
+            width=""
+          />
+        </div>
+        <br />
 
         <div id="header">
           <h1 id="texto" class="text-start">Encuentra tu SuperHero</h1>
-          <br>
+          <br />
           <form action="">
             <div class="text-start">
               <label class="text-start mb-2" for="superhero">
                 Ingresa el número del SuperHero a buscar
               </label>
 
-              <input class="form-control"
-              type="text"
-              name="superhero"
-              id="superhero"
-              placeholder="Busca un héroe 🦸"
+              <input
+                class="form-control"
+                type="text"
+                name="superhero"
+                id="superhero"
+                placeholder="Busca un héroe 🦸"
               />
             </div>
-            <br>
+            <br />
 
             <div class="boton">
-              <input class="btn btn-primary" type="submit" value="Buscar"/>
+              <input class="btn btn-primary" type="submit" value="Buscar" />
             </div>
+            <br />
+            <!-- <div class="card mb-3" style="width: 100%">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                    src="..."
+                    class="img-fluid rounded-start"
+                    alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is
+                        a little bit longer.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-body-secondary"
+                        >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
           </form>
+          <div class="resultado"></div>
         </div>
       </div>
-      </header>
+    </header>
 
-      <div>
-        
-      </div>
+    <!-- CDN JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-      <!-- CDN JQuery -->
-    <script
-    src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
-    </script>
-
-    <script
-      src="assets/js/index.js"></script>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
